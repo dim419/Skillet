@@ -1,0 +1,153 @@
+.design {
+    background: #FBF6EA;;
+}
+
+.design__wrapper {
+    padding: 7rem 0 13rem;
+}
+
+.design__title {
+    @include font ($size: 3.5rem, $height: 4.8rem, $weight: 400);
+    text-align: center;
+    color: #35312E;
+    margin: 0 0 5.3rem;
+}
+
+.design__content {
+    position: relative;
+}
+
+.design__icon {
+    display: flex;
+    margin: 0 0 4.5rem;
+    padding: 0 54.7rem 0 54.8rem;
+    justify-content: space-between;
+}
+
+.design__circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+
+.design__icon_1 {
+    background: #E09D81;
+}
+
+.design__icon_2 {
+    background: #748EA1;
+}
+
+.design__icon_3 {
+    background: #B76D47;
+}
+
+.design__icon_4 {
+    background: #7D836E;
+}
+
+.design__icon_5 {
+    background: #C33636;
+}
+
+.design__icon_6 {
+    background: #CDC7B3;
+}
+
+.design__icon_7 {
+    background: #595752;
+    border: 3px solid #E09D81;
+}
+
+.design__icon_8 {
+    background: #D3C2CA;
+}
+
+.design__img {
+    padding: 0 36rem 0 51.8rem;
+}
+
+.design__text {
+    @include font ($size: 1.2rem, $height: 1.4rem, $weight: 400);
+    color: #6E6259;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.design__square {
+    height: 1.2rem;
+    width: 1.2rem;
+    background: #E09D81;
+}
+
+.design__content_modular {
+    position: absolute;
+    left: 37rem;
+    top: 15.8rem;
+}
+
+.design__square_1 {
+    position: absolute;
+    left: 54.9rem;
+    top: 17.2rem;
+}
+
+.design__content_easy {
+    position: absolute;
+    left: 47rem;
+    top: 43.2rem;
+}
+
+.design__square_2 {
+    position: absolute;
+    left: 60.8rem;
+    top: 47rem;
+}
+
+.design__content_exclusive {
+    position: absolute;
+    left: 38rem;
+    top: 54.7rem;
+}
+
+.design__square_3 {
+    position: absolute;
+    left: 62.5rem;
+    top: 59.2rem;
+}
+
+.design__content_beechwood {
+    position: absolute;
+    left: 90rem;
+    top: 11rem;
+}
+
+.design__square_4 {
+    position: absolute;
+    left: 96.7rem;
+    top: 18rem;
+}
+
+.design__content_nesting {
+    position: absolute;
+    left: 89rem;
+    top: 35.8rem;
+}
+
+.design__square_5 {
+    position: absolute;
+    left: 84.8rem;
+    top: 36.6rem;
+}
+
+.design__content_stay {
+    position: absolute;
+    left: 96rem;
+    top: 51.8rem;
+}
+
+.design__square_6 {
+    position: absolute;
+    left: 96.8rem;
+    top: 48.5rem;
+}
