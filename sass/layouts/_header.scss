@@ -1,0 +1,66 @@
+.header__ship {
+    background-color: #F0EEDD;
+    color: #670A18;
+    @include font ($size: 1.2rem, $height: 2.0rem, $weight: normal);
+    letter-spacing: 0.5px;
+    p {
+        text-align: center;
+        margin: 0;
+        padding: 0.9rem 0 1rem 0;
+    }
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem 4.9rem 2.2rem 4.7rem;
+    background-color: white;
+}
+
+
+.nav-left,
+.nav-right {
+    display: flex;
+    @include font ($size: 1.3rem, $height: 2.2rem, $weight: 700);
+    margin: 0;
+}
+
+.nav-left__link,
+.nav-right__link {
+    cursor: pointer;
+    text-transform: uppercase;
+    a {
+        text-decoration: none;
+        color: #35312E;
+    }
+}
+
+.nav-left__link {
+    &:nth-child(1) {
+        margin-right: 5rem;
+    }
+}
+
+.nav-right__link {
+    align-self: center;
+    &:nth-child(1) {
+        margin-right: 4.5rem;
+    }
+    &:nth-child(2) {
+        margin-right: 2.3rem;
+    }
+}
+
+.nav-right__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #C87B5E;
+    border-radius: 17.5px;
+    text-align: center;
+    span {
+        color: white;
+        line-height: 3.5rem;
+    }
+}
+

@@ -1,0 +1,37 @@
+.skillet__wrapper {
+    background-image: url("../assets/images/newskilletBG.png");
+}
+
+.skillet__content {
+    padding: 16.8rem 80.9rem 17.7rem 38.3rem;
+}
+
+.skillet__subtitle {
+    @include font ($size: 1.6rem, $height: 1.6rem, $weight: 400);
+    text-transform: uppercase;
+    color: #35312E;
+    margin: 0;
+}
+
+.skillet__title {
+    @include font ($size: 5.0rem, $height: 5.2rem, $weight: 400);
+    color: #35312E;
+    letter-spacing: 1px;
+    margin: 1.4rem 0 6.7rem;
+    span {
+        border-bottom: 0.3rem solid;
+        height: 2rem;
+    }
+}
+
+.skillet__button {
+    @include font ($size: 1.2rem, $height: 2.0rem, $weight: 700);
+    width: 24.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+    border-radius: 2px;
+    background: #D37657;
+    color: white;
+    padding: 1.9rem 3rem 2rem;
+}

@@ -1,0 +1,18 @@
+.welcome__content {
+    display: flex;
+    padding: 12.1rem 12rem 11.5rem 13.5rem;
+}
+
+.welcome__title {
+    margin: 0;
+    @include font ($size: 4.1rem, $height: 4.6rem, $weight: 700);
+    letter-spacing: 1.25px;
+    text-align: center;
+    align-self: center;
+}
+
+.welcome__text {
+    margin: 0 0 0 12.5rem;
+    @include font ($size: 1.6rem, $height: 2.6rem, $weight: 400);
+    width: 60%;
+}
