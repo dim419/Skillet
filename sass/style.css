@@ -787,11 +787,13 @@ body {
   line-height: 2.9rem;
   text-align: center;
   width: 30%;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
 }
 
 .handmade__cards {
   display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem 0 3.5rem;
 }
 
 .handmade__circle {
@@ -800,24 +802,42 @@ body {
   border-radius: 1rem;
 }
 
-.bowls__title {
+.bowls,
+.glasses,
+.plates {
+  flex: 1;
+}
+
+.pan {
+  flex: 1.07;
+}
+
+.bowls__title,
+.glasses__title,
+.plates__title,
+.pan__title {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.4rem;
+  color: #35312E;
   text-align: center;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 0.4rem;
 }
 
-.bowls__subtitle {
+.bowls__subtitle,
+.glasses__subtitle,
+.plates__subtitle {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.1rem;
   text-align: center;
   letter-spacing: 0.1px;
+  color: #6E635A;
+  margin: 0 0 0.6rem;
 }
 
 .bowls__text {
@@ -825,14 +845,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
+  color: #6E635A;
   text-align: center;
   letter-spacing: 0.2px;
-  width: 55%;
-  margin: 0 auto;
-}
-
-.bowls__icon {
-  display: flex;
+  width: 50%;
+  margin: 0 auto 4.1rem;
 }
 
 .bowls__img {
@@ -842,6 +859,14 @@ body {
   background-position: bottom;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.bowls__icon {
+  padding: 0 12rem 0 12rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bowls__icon_1 {
@@ -857,21 +882,165 @@ body {
   background: #595752;
 }
 
+.glasses__text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #6E635A;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 54%;
+  margin: 0 auto 2.1rem;
+}
+
 .glasses__img {
+  display: flex;
   background-image: url("../assets/images/OvalGlasses.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.glasses__icon {
+  padding: 0 10rem 0 10rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.glasses__icon_1 {
+  background: #CCBD9E;
+  border: 3px solid #6E6259;
+}
+
+.glasses__icon_2 {
+  background: #B55900;
+}
+
+.glasses__icon_3 {
+  background: #5B653B;
+}
+
+.glasses__icon_4 {
+  background: #FFFFFF;
+  border: 1px solid rgba(110, 99, 90, 0.3);
+}
+
+.plates__text {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #6E635A;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 50%;
+  margin: 0 auto 4.1rem;
 }
 
 .plates__img {
+  display: flex;
   background-image: url("../assets/images/OvalPlates.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.plates__icon {
+  padding: 0 12rem 0 12rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plates__icon_1 {
+  background: #E09D81;
+  border: 3px solid #6E6259;
+}
+
+.plates__icon_2 {
+  background: #CDC7B3;
+}
+
+.plates__icon_3 {
+  background: #595752;
+}
+
+.pan__subtitle {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #6E635A;
+  margin: 0 0 0.6rem;
+}
+
+.pan__text {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #6E635A;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 50%;
+  margin: 0 auto 2.1rem;
 }
 
 .pan__img {
+  display: flex;
   background-image: url("../assets/images/OvalPan.png");
   background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  margin: 8rem 0 1.5rem;
+}
+
+.pan__icon {
+  padding: 0 3.1rem 0 3.1rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pan__icon_1 {
+  background: #E09D81;
+  border: 3px solid #6E6259;
+}
+
+.pan__icon_2 {
+  background: #748EA1;
+}
+
+.pan__icon_3 {
+  background: #B76D47;
+}
+
+.pan__icon_4 {
+  background: #7D836E;
+}
+
+.pan__icon_5 {
+  background: #C33636;
+}
+
+.pan__icon_6 {
+  background: #CDC7B3;
+}
+
+.pan__icon_7 {
+  background: #595752;
+}
+
+.pan__icon_8 {
+  background: #D3C2CA;
 }
 
 /*# sourceMappingURL=style.css.map */
